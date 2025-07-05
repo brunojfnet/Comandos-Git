@@ -8,7 +8,7 @@ git init                                # Inicia o controle de versão Git na pa
 ````
 **📂 Adicionar arquivos para commit**
 ````
-git add nome_arquivo.ext                # Adiciona um arquivo específico
+git add nome_arquivo.ext               # Adiciona um arquivo específico
 git add nome_da_pasta/                 # Adiciona uma pasta inteira
 git add .                              # Adiciona todos os arquivos e pastas alterados (menos os ignorados)
 ````
