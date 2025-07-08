@@ -288,6 +288,8 @@ git push -u origin main                       # Envia branch e configura trackin
 #### 🔁 Já existe
 ```bash
 git checkout main                             # Garante que está na branch main
+git fetch origin                              # Baixa alterações do repositório remoto sem aplicar
+git diff origin/main                          # Compara o que mudou entre sua branch atual e a versão remota
 git pull origin main                          # Atualiza com possíveis mudanças do remoto
 git add .                                     # Adiciona alterações feitas
 git commit -m "Atualização de conteúdo"       # Cria novo commit
